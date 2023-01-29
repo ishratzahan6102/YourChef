@@ -300,18 +300,13 @@ h1 {
 }
 
 .about-section-inner img {
-    width: 40%;
+    width: 100%;
+    border: 8px solid rgba(202, 202, 176, 0.979);
 }
 
 .about-img {
-    width: 60%;
-}
-
-.about-img img {
-    width: 100%;
-    border: 8px solid rgba(202, 202, 176, 0.979);
-    ;
-    min-height: 400px;
+    width: 50%;
+   
 }
 
 .about-details {
