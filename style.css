@@ -49,6 +49,7 @@ main {
     color: rgb(136, 136, 63);
     padding: 8px;
     margin: 0 4px;
+    font-weight: bolder;
 
 }
 
@@ -880,7 +881,9 @@ textarea {
         width: 800px;
         margin: 0 auto;
     }
-
+    .authors-profile{
+        grid-template-columns: repeat(3, 1fr);
+    }
     .contact-form-section {
         width: 800px;
         margin: 0 auto;
