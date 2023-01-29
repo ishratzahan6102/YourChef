@@ -37,7 +37,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     margin: 4px 0px;
     background-color: rgba(202, 202, 176, 0.226);
 }
@@ -810,7 +810,7 @@ textarea{
         width: 400px;
     }
     .container-fluid{
-        padding: 20px 120px;
+        padding: 10px 120px;
        }
 }
 
