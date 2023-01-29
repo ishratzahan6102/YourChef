@@ -48,7 +48,7 @@ main {
     text-decoration: none;
     color: rgb(136, 136, 63);
     padding: 8px;
-    margin: 0 4px;
+    margin: 0 1px;
     font-weight: bolder;
 
 }
@@ -57,7 +57,7 @@ main {
     background-color: rgb(136, 136, 63);
     color: white;
     padding: 8px;
-    margin: 0 4px;
+    margin: 0 1px;
 }
 
 #logo-typo {
