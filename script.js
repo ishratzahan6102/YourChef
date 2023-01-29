@@ -92,7 +92,7 @@ function mealRecipeModel(meal){
                 <ul class= "ingredients-list">
                 <li>${meal.strMeasure1} ${meal.strIngredient1} , ${meal.strMeasure2} ${meal.strIngredient2}, ${meal.strMeasure3} ${meal.strIngredient3}, ${meal.strMeasure4} ${meal.strIngredient4}, ${meal.strMeasure5} ${meal.strIngredient5}, ${meal.strMeasure6} ${meal.strIngredient6}, ${meal.strMeasure7} ${meal.strIngredient7}, ${meal.strMeasure8} ${meal.strIngredient8}, ${meal.strMeasure9} ${meal.strIngredient9}, ${meal.strMeasure10} ${meal.strIngredient10}</li>
                 </ul>
-            <div>
+            <div">
                 <h3>Instructions : </h3>
                 <p>${meal.strInstructions}</p>
             </div>

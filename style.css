@@ -9,24 +9,26 @@
     --tenne-tawny: #d65108;
     --tenne-tawny-dark: #b54507;
 }
-body{
+
+body {
     background-color: rgba(202, 202, 176, 0.226);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: .03 !important ;
+    font-weight: .03 !important;
     color: gray;
     font-size: 1rem;
-   
+
     line-height: 1.6;
 }
+
 main {
-    
+
     margin: 0 auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: .03 !important ;
+    font-weight: .03 !important;
     color: gray;
     font-size: 1rem;
     padding: 4px;
-   
+
     line-height: 1.6;
     /* font-family: poppins, sans-serif; */
 }
@@ -49,12 +51,14 @@ main {
     margin: 0 4px;
 
 }
+
 .container-fluid a:active {
-    background-color:rgb(136, 136, 63) ;
+    background-color: rgb(136, 136, 63);
     color: white;
     padding: 8px;
     margin: 0 4px;
-  }
+}
+
 #logo-typo {
     font-size: xx-large;
     margin-left: 4px;
@@ -75,12 +79,14 @@ main {
     margin: 10px 0 40px;
 
 }
-.hero button{
+
+.hero button {
     background-color: orangered;
     border: none;
     padding: 8px;
-    color: white; 
+    color: white;
 }
+
 .hero .hero-img-section {
     width: 66.5%;
     height: 600px;
@@ -146,16 +152,22 @@ main {
     width: 100%;
     min-height: 295px;
     position: relative;
-   color: gray;
+    color: gray;
     border: 7px solid orangered;
     padding: 20px;
 }
-.article h3, h1{
+
+.article h3,
+h1 {
     color: black;
 }
-.article-4 h1, .article-6 h1, .article-7 h1{
+
+.article-4 h1,
+.article-6 h1,
+.article-7 h1 {
     color: white;
 }
+
 .article p {
     font-size: small;
 }
@@ -165,9 +177,11 @@ main {
 .article-1 {
     background-image: white;
     color: gray;
-    border: 7px solid   cadetblue;;
+    border: 7px solid cadetblue;
+    ;
 }
-.article-1 button{
+
+.article-1 button {
     background-color: cadetblue;
     border: none;
     padding: 8px;
@@ -176,61 +190,74 @@ main {
 
 .article-2 {
     background-image: white;
-    border: 7px solid    rgba(202, 202, 176, 0.897); ;
-   
+    border: 7px solid rgba(202, 202, 176, 0.897);
+    ;
+
 }
-.article-3, .article-8{
+
+.article-3,
+.article-8 {
     background-color: white;
-    border: 7px solid mediumslateblue ;
+    border: 7px solid mediumslateblue;
 }
-.article-3 button, .article-8 button{
+
+.article-3 button,
+.article-8 button {
     background-color: mediumslateblue;
     border: none;
     padding: 8px;
-    color: white; 
+    color: white;
 }
-.article-4{
+
+.article-4 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.308)), url("images/WGC-Green-Beans-copy.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 7px solid olivedrab ;
+    border: 7px solid olivedrab;
     color: white;
 }
-.article-4 button, .article-7 button{
+
+.article-4 button,
+.article-7 button {
     background-color: olivedrab;
     border: none;
     padding: 8px;
-    color: white; 
+    color: white;
 }
-.article-5 img{
+
+.article-5 img {
     width: 100%;
 }
-.article-5{
+
+.article-5 {
     border: none;
 }
-.article-6{
+
+.article-6 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.308)), url("images/fresh-tomato-pasta-recipe-481998-hero-15-88f9495dfdd8428fafea9232c1bfd7f1.jpg");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
-.article-6 button{
+
+.article-6 button {
     background-color: orangered;
     border: none;
     padding: 8px;
-    color: white; 
+    color: white;
 }
 
-.article-7{
+.article-7 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.308)), url("images/artichokes.jpg");
-   background-position: right;
-   background-repeat: no-repeat;
-   background-size: cover;
-   border: 7px solid olivedrab ;
-   color: white;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 7px solid olivedrab;
+    color: white;
 }
+
 /*  */
 
 .all-articles {
@@ -253,14 +280,16 @@ main {
     padding: 60px 0;
 
 }
-.about-section p{
+
+.about-section p {
     font-weight: lighter;
     color: grey;
     font-size: smaller;
 }
-.about-section h1{
+
+.about-section h1 {
     font-size: 3.4rem;
-    
+
 }
 
 .about-section-inner {
@@ -268,9 +297,11 @@ main {
     flex-direction: row;
     gap: 10px;
 }
-.about-section-inner img{
+
+.about-section-inner img {
     width: 40%;
 }
+
 .about-img {
     width: 60%;
 }
@@ -289,9 +320,11 @@ main {
     font-weight: 5px;
     background-color: white;
 }
-.about-details h2{
+
+.about-details h2 {
     font-size: 2rem;
 }
+
 .about-details .half-paragraph {
     display: grid;
     gap: 10px;
@@ -321,50 +354,60 @@ main {
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
 }
-.display-section div{
+
+.display-section div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.display-section img{
+
+.display-section img {
     width: 15%;
 }
-.display-section h1{
-    color: rgba(202, 202, 176, 0.979) ;
+
+.display-section h1 {
+    color: rgba(202, 202, 176, 0.979);
 }
-.author-section{
+
+.author-section {
     display: grid;
-   grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
 
-.author-context{
+.author-context {
     text-align: justify;
     font-size: smaller;
     color: rgba(128, 128, 128, 0.747);
     padding: 20px;
-    background-color: white  ;
+    background-color: white;
 }
-.author-section h1{
+
+.author-section h1 {
     font-size: 2.4rem;
 }
 
 /*  */
-.authors-profile{
+.authors-profile {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 40px;
     gap: 20px;
 }
-.authors-profile-img img{
-    width:  100%;
+
+.authors-profile-img img {
+    width: 100%;
     height: 300px;
     border: 8px solid rgba(202, 202, 176, 0.979);
 }
-.article-9, .article-10, .article-11{
+
+.article-9,
+.article-10,
+.article-11 {
     border: 8px solid rgba(202, 202, 176, 0.979);
 }
-.authors-profile .article{
+
+.authors-profile .article {
     color: gray;
 }
 
@@ -399,17 +442,18 @@ main {
     background-size: cover;
     min-height: 100vh;
 
+
 }
 
 .meal-wrapper {
     margin: 0 auto;
     padding: 2rem;
     background: none;
-    text-align: center;
+    text-align: justify;
 }
 
 .meal-search {
-    margin: 0 2rem;
+    margin: 0 1rem;
 }
 
 .meal-search cite {
@@ -432,7 +476,8 @@ main {
     font-size: 1.1rem;
     font-family: inherit;
     outline: 0;
-    border: 1px solid rgba(202, 202, 176, 0.979); ;
+    border: 1px solid rgba(202, 202, 176, 0.979);
+    ;
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
@@ -460,15 +505,15 @@ main {
 .meal-result {
     margin-top: 4rem;
     background: none;
-   
+
 }
 
 #meal {
     margin: 2.4rem 0;
     color: #000;
 
-   display: grid;
-   grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .meal-item {
@@ -478,16 +523,18 @@ main {
     background: #fff;
     display: flex;
     flex-direction: row;
-   
+
 }
-.meal-img{
+
+.meal-img {
     width: 60%;
 }
+
 .meal-img img {
     width: 100%;
     max-height: 300px;
-    
-   
+
+
 }
 
 .meal-name {
@@ -497,14 +544,16 @@ main {
     text-align: start;
     color: gray;
 }
-.meal-name span{
+
+.meal-name span {
     color: olive;
 }
-.get-recipe-section{
+
+.get-recipe-section {
     display: flex;
     justify-content: space-between;
     font-size: smaller;
-   
+
     color: gray;
 }
 
@@ -537,10 +586,10 @@ main {
     border-radius: 1rem;
     width: 100%;
     height: 90%;
-    text-align: start;
+    text-align: justify;
     overflow-y: scroll;
     display: none;
-    padding: 2rem;
+    padding: 6px;
 
 }
 
@@ -562,7 +611,8 @@ main {
     margin: 2rem;
     font-family: sans-serif;
 }
-.recipe-meal-img img{
+
+.recipe-meal-img img {
     width: 100%;
 }
 
@@ -647,42 +697,50 @@ main {
     width: 100%;
     color: rgb(81, 182, 81);
 }
-.contact-form-section{
+
+.contact-form-section {
     text-align: center;
     padding: 50px 0;
-    color: rgb(136, 136, 63); ;
-   
-}
-.contact-form-section form{
-    width: 100%;
-   display: flex;
-   margin-top: 40px ;
-   flex-direction: column;
-  align-items: center;
-   text-align: left;
-  
+    color: rgb(136, 136, 63);
+    ;
+
 }
 
-.contact-form-section span{
-   display: block;
+.contact-form-section form {
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
 }
-.contact-form-section input, textarea{
+
+.contact-form-section span {
+    display: block;
+}
+
+.contact-form-section input,
+textarea {
     width: 100%;
     padding: 20px;
 }
-textarea{
+
+textarea {
     min-height: 200px;
 }
-.Submit-btn{
+
+.Submit-btn {
     font-size: 1rem;
     color: rgb(136, 136, 63);
-    background-color: rgb(136, 136, 63); 
+    background-color: rgb(136, 136, 63);
     ;
 }
 
-.footer{
+.footer {
     background-color: rgba(202, 202, 176, 0.979);
-    color: rgb(136, 136, 63);;
+    color: rgb(136, 136, 63);
+    ;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -711,73 +769,86 @@ textarea{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
     .about-section-inner {
         flex-direction: column;
         gap: 10px;
     }
-    .about-img{
+
+    .about-img {
         width: 100%;
     }
-    .about-details{
+
+    .about-details {
         width: 100%;
     }
-    .authors-profile{
+
+    .authors-profile {
         grid-template-columns: repeat(1, 1fr)
     }
-    .authors-profile-img img{
-        width:  100%;
-        height: 400px;
+
+    .authors-profile-img img {
+        width: 100%;
+        height: 350px;
         border: 8px solid rgba(202, 202, 176, 0.979);
     }
-    
-    .author-section{
-       width: 100%;
-       grid-template-columns: repeat(1, 1fr);
-       gap: 10px;
+
+    .author-section {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
     }
+
     .display-section {
         padding: 60px 10px;
         font-size: small;
     }
 
-    .meal-item{
+    .meal-item {
         flex-direction: column;
 
     }
-    .meal-img{
+
+    .meal-img {
         width: 100%;
     }
-    .meal-name{
+
+    .meal-name {
         width: 100%;
     }
+
     .meal-name h3 {
-    font-size: 2rem;
+        font-size: 2rem;
     }
-    .recipe-btn{
+
+    .recipe-btn {
         text-align: center;
         position: relative;
-       bottom: 0;
-       left: 0;
-       margin-top: 20px;
-       display: block;
+        bottom: 0;
+        left: 0;
+        margin-top: 20px;
+        display: block;
     }
+
     .meal-search-box {
         width: 400px;
         margin-left: auto;
         margin-right: auto;
     }
-    .contact-form-section input , textarea{
+
+    .contact-form-section input,
+    textarea {
         width: 300px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    main{
+    main {
         padding: 10px;
     }
-  
+
     #meal {
-    gap: 2rem;
+        gap: 2rem;
     }
 
     .meal-item {
@@ -787,30 +858,41 @@ textarea{
     .meal-details {
         width: 700px;
     }
-    
-    .contact-form-section input , textarea{
+
+    .authors-profile {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .contact-form-section input,
+    textarea {
         width: 400px;
     }
-   
-    
-}
-@media screen and (min-width: 992px) {
-    main{
-        width: 1100px;
-    }
-    .container{
-        width: 800px;
-        margin: 0 auto;
-    }
-    .contact-form-section{
-        width: 800px;
-        margin: 0 auto;
-    }
-    .contact-form-section input , textarea{
-        width: 400px;
-    }
-    .container-fluid{
-        padding: 10px 120px;
-       }
+
+
 }
 
+@media screen and (min-width: 992px) {
+    main {
+        width: 1100px;
+    }
+
+    .container {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .contact-form-section {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .contact-form-section input,
+    textarea {
+        width: 400px;
+    }
+
+    .container-fluid {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+}
