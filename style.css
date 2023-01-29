@@ -46,14 +46,14 @@ main {
     text-decoration: none;
     color: rgb(136, 136, 63);
     padding: 8px;
-    margin: 0 6px;
+    margin: 0 4px;
 
 }
 .container-fluid a:active {
     background-color:rgb(136, 136, 63) ;
     color: white;
     padding: 8px;
-    margin: 0 6px;
+    margin: 0 4px;
   }
 #logo-typo {
     font-size: xx-large;
