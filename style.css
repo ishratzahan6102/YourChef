@@ -95,7 +95,7 @@ main {
     position: relative;
     color: white;
     border: 8px solid orangered;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.308)), url("images/hero-img.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.308)), url("images/hero-img1.jpg");
 }
 
 .part-1 {
