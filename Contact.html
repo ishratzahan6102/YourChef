@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light my-2">
+        <div class="container-fluid">
+            <a href="Home.html" class="nav-a  m-2" type="submit">Your <span id="logo-typo">C</span> hief</a>
+
+            <form class="d-flex flex-column-reverse flex-lg-row align-items-center " role="search">
+                <a href="Home.html" class="nav-a  m-2" type="submit">Feed</a>
+                <a href="Contact.html" class="nav-a  m-2" type="submit">Contact Us</a>
+                <img class=" rounded-circle m-2" style="width: 50px;" src="Profile-img.jpg" alt="">
+            </form>
+
+        </div>
+        </div>
+    </nav>
+
+
+    
+      <main>
+        <div>
+            <div class="contact-form-section"> 
+                <h1>CONTACT US</h1>
+                <p>Request a recipe</p>
+                <div> 
+                        
+                    <form onsubmit="sendEmail() ; reset(); return false;" className="card w-96  text-white contact-me-form mx-auto lg:mx-0 mt-0 pt-0  bg-base-100">
+                    <div className="card-body">
+                       
+                        <div className="form-control">
+                            <label className="label">
+                                <span  className="label-text font-bold ">What is your name?</span>
+                            </label>
+                            <input id="name" type="text" name="user_name" required placeholder="Insert your name" className="input input-bordered rounded-lg text-base" />
+                        </div>
+                        <div className="form-control ">
+                            <label className="label">
+                                <span  className="label-text font-bold ">Email</span>
+                            </label>
+                            <input id="email" type="email" name="user_email" required placeholder="Insert your email" className="input input-bordered rounded-lg text-base" />
+                        </div>
+                        <div className="form-control ">
+                            <label className="label">
+                                <span  className="label-text font-bold ">Phone number</span>
+                            </label>
+                            <input id="phone" type="text" name="phone" required placeholder="Insert your phone number" className="input input-bordered rounded-lg text-base" />
+                        </div>
+                        <div className="form-control ">
+                            <label className="label">
+                                <span  className="label-text font-bold ">Requested Recipe</span>
+                            </label>
+                            <input id="recipe" type="text" name="recipe" required placeholder="Insert name of the recipe " className="input input-bordered rounded-lg text-base" />
+                        </div>
+                        
+                        <div className="form-control">
+                        <label className="label">
+                                <span  className="label-text font-bold ">Message</span>
+                            </label>
+                            <textarea id="message" name="message" required placeholder='How can I help you?' className='textarea textarea-bordered h-40 rounded-lg text-base' ></textarea>
+                        </div>
+                        <div class="form-control Submit-btn  ">
+                            <input  type="submit" value="Send" className="" />
+                        </div>
+                    </div>
+                    </form>
+    
+               </div>
+            </div>
+    
+            
+          </div>
+      </main>
+      <div class="footer container-fluid">
+        <a href="Home.html" class="nav-a  m-2" type="submit">Your <span id="logo-typo">C</span> hief</a>
+        <p>All rights reserved by Your Chef</p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+   
+</body>
+</html>
